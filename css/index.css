@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.flex-item {
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu_container {
+  width: 80%;
+  padding-left: 10%;
+}
+.menu_item {
+  width: 25%;
+  background-color: rgb(246,147,00);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.banniere{
+  max-width: 80%;
+}
+
+body h1 {
+  width: 80%;
+  padding-left: 10%;
+}
+
+body p {
+  width: 80%;
+  padding-left: 10%;
+}
+
+body a {
+  width: 80%;
+  padding-left: 10%;
+}
