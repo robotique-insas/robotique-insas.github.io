@@ -38,7 +38,7 @@ img{
 	}
 }
 
-@media(width<800px){
+@media screen and (max-width: 900px){
 	.mots_pres li , .coupe_expli li, .coupe_liens li, .presentation_club li{
 		width: 100%;
 	}
