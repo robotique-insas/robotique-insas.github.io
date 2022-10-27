@@ -1,0 +1,107 @@
+/* all.css
+
+Le css all a pour but d'intervenir sur toutes les pages,
+pour en modifier le corps, la barre du menu et le pied de page.
+
+Si des modifications sont faites ici, il faut donc vérifier
+toutes les pages pour s'assurer que le changement n'est rien
+cassé.
+
+*/
+
+
+
+/*------- Changement sur des éléments généraux -------*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #2E3244;
+  background-color: #FFFFFF;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+/*------- Changement sur le menu -------*/
+
+.espace_banniere{
+  padding-top: 57%;
+  z-index: 2;
+}
+.espace_banniere img{
+  display: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.menu_container {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  background-color: #FFFFFFEA;
+  z-index: 999;
+}
+.menu_item {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 15%;
+  height: 20px;
+  text-align: center;
+}
+.menu_item a{
+  color: #2E3244;
+  font-weight: bold;
+  font-size: 1em;
+  transition-duration: 700ms;
+}
+.menu_item a:hover{
+  color: #F1895C;
+  font-size: 1.1em;
+  transition-duration: 200ms;
+}
+.menu_logo{
+  width: 40%;
+  height: 45px;
+}
+.menu_logo_img{
+  width: 100px;
+  height: 50px;
+}
+
+.banniere{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-width: 100%;
+  z-index: 1;
+}
+
+/*-- --*/
+
+.contact{
+  background-color: #2E3244;
+  margin: 0px;
+  margin-top: 20px;
+  height: 4em;
+  text-align: center;
+}
+.contact li{
+  width: 25%;
+}
+.contact li a{
+  position: relative;
+  top: 1.5em;
+  color: white;
+  text-decoration: none;
+}

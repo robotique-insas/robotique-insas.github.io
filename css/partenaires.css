@@ -1,22 +1,22 @@
-.text{
-	width: 70%;
-}
-
-.img {
-	width: 30%;
-}
-
 .partenaire {
 	width: 80%;
 	padding-left: 10%;
 	padding-top: 50px;
 }
 
-img {
+.partenaire .text{
+	width: 70%;
+}
+
+.partenaire .img {
+	width: 30%;
+}
+
+.partenaire img {
 	width: 100%;
 }
 
-.khsXnO {
+.logo_rs {
 	box-sizing: border-box;
 	height: 100%;
 	width: 100%;
@@ -28,6 +28,23 @@ img {
 	padding-left: 5%;
 }
 
-.flex-item {
-	color: black;
+.text h1{
+	text-align: center;
+}
+
+.text a{
+	margin-left: 35%;
+	margin-top: 0.5em;
+}
+
+.bouton_visite{
+	height: 2em;
+	width: 30%;
+	border-radius: 1em;
+	background-color: #2E3244;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 0.5em;
+	text-align: center;
 }
