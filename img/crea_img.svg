@@ -24,16 +24,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.43111588"
-     inkscape:cx="804.28074"
-     inkscape:cy="454.24589"
+     inkscape:cx="-150.86094"
+     inkscape:cy="582.62181"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1898"
      inkscape:window-height="972"
-     inkscape:window-x="-9"
-     inkscape:window-y="1"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -91,5 +91,66 @@
          x="259.06265"
          y="91.489296"
          style="font-size:7.76111px;fill:#f5ffff;fill-opacity:1;stroke-width:0.264583">bannière du menu</tspan></text>
+    <circle
+       style="fill:#f5ffff;stroke:#c0bfc0;stroke-width:3.175;paint-order:stroke markers fill"
+       id="path836"
+       cx="376.51562"
+       cy="88.682167"
+       r="9.51262" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 372.28666,84.89416 4.12266,3.851428 4.50236,-4.014166"
+       id="path838" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 372.15219,87.566261 4.12266,3.851428 4.50236,-4.014166"
+       id="path838-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 372.15219,90.387026 4.12266,3.851428 4.50236,-4.014166"
+       id="path838-0-2" />
+    <rect
+       style="fill:#f5ffff;stroke:#c0bfc0;stroke-width:1.10113;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill;fill-rule:nonzero;fill-opacity:1"
+       id="rect880"
+       width="114.13608"
+       height="20.508022"
+       x="240.56685"
+       y="102.82344" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="249.78299"
+       y="116.91319"
+       id="text884"><tspan
+         sodipodi:role="line"
+         id="tspan882"
+         x="249.78299"
+         y="116.91319"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1">Site en construction</tspan></text>
+    <rect
+       style="fill:#585857;fill-opacity:1;stroke:#c0bfc0;stroke-width:3.91028;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect833-6"
+       width="122.9819"
+       height="91.258865"
+       x="50.76363"
+       y="158.61548"
+       inkscape:export-xdpi="100.08498"
+       inkscape:export-ydpi="100.08498" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.47647px;line-height:1.25;font-family:sans-serif;fill:#f5ffff;fill-opacity:1;stroke-width:0.0839338"
+       x="100.22487"
+       y="208.55505"
+       id="text837-9-0"><tspan
+         sodipodi:role="line"
+         id="tspan835-6-9"
+         x="100.22487"
+         y="208.55505"
+         style="font-size:4.47647px;fill:#f5ffff;fill-opacity:1;stroke-width:0.0839338">Photo 4:3</tspan><tspan
+         sodipodi:role="line"
+         x="100.22487"
+         y="214.15063"
+         style="font-size:4.47647px;fill:#f5ffff;fill-opacity:1;stroke-width:0.0839338"
+         id="tspan973" /></text>
   </g>
 </svg>
