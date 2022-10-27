@@ -1,9 +1,13 @@
+.presentation_club, .coupe_expli, .coupe_liens{
+	padding-left: 10%;
+	padding-right: 10%;
+}
 .mots_pres{
+	background-color: #2E3244;
+	color: white;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	padding: 10%;
-	background-color: #2E3244;
-	color: white;
 }
 .mots_pres li , .coupe_expli li, .coupe_liens li, .presentation_club li{
 	width: 45%;
@@ -12,18 +16,39 @@
 	text-align: center;
 }
 
-.mots_pres li img{
+img{
 	max-width: 100%;
-	max-height: 100%;
 }
 
 .bouton_visite{
 	height: 2em;
-	width: 30%;
+	width: 50%;
 	border-radius: 1em;
 	background-color: #2E3244;
 	color: white;
 	text-decoration: none;
 	display: inline-block;
 	padding-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+@media(width<1500px){
+	.bouton_visite{
+		width: 55%;
+	}
+}
+
+@media(width<800px){
+	.mots_pres li , .coupe_expli li, .coupe_liens li, .presentation_club li{
+		width: 100%;
+	}
+	.bouton_visite{
+		width: 70%;
+	}
+}
+
+@media(width<450px){
+	.bouton_visite{
+		width: 90%;
+	}
 }

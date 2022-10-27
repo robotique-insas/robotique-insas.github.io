@@ -22,23 +22,22 @@ Information pour moi-même :
 
 	<!-- Barre de menu -->
 
-		<ul class="flex-container menu_container">
-			<li class="flex-item menu_logo">
-				<img class="menu_logo_img" src="img/logo_cris_complexe.png">
-			</li>
-			<li class="flex-item menu_item">
-				<a class="menu_link" href="index.html">Acceuil</a>
-			</li>
-			<li class="flex-item menu_item">
-				<a class="menu_link" href="actualites.html">Actualités</a>
-			</li>
-			<li class="flex-item menu_item">
-				<a class="menu_link" href="membres.html">Membres</a>
-			</li>
-			<li class="flex-item menu_item">
-				<a class="menu_link" href="partenaires.html">Partenaires</a>
-			</li>
-		</ul>
+		<nav class="navbar">
+			<a href="#" class="logo"><img class="menu_logo_img" src="img/logo_cris_complexe.png"></a>
+			<div class="nav-links">
+				<ul>
+					<li class="active"><a class="menu_link" href="index.html">Accueil</a></li>
+					<li><a class="menu_link" href="actualites.html">Actualités</a></li>
+					<li><a class="menu_link" href="membres.html">Membres</a></li>
+					<li><a class="menu_link" href="partenaires.html">Partenaires</a></li>
+				</ul>
+			</div>
+			<span class="burger-icon menu-hamburger">
+			    <span></span>
+			    <span></span>
+				<span></span>
+			</span>
+		</nav>
 
 	<!-- Bannière d'acceuil -->
 		
@@ -64,14 +63,13 @@ Information pour moi-même :
 	<!-- Mot des co-présidents -->
 
 		<ul class="flex-container mots_pres">
-			<li class="ordi">
-				<img class="ordi" src="img/photo_43.png">
+			<li>
+				<img src="img/photo_43.png">
 			</li>
 			<li>
 				<h1>Mots des présidents</h1>
-				<img class="tel" src="">
 				<p>Bonjour, </br>
-				Nous somme aujourd'hui ravis de présider le club robotique de l'insa de strasbourg, avec une histoire riche, et des membres motivés, nous sommes l'un des plus gros club de notre école. Et pour cette nouvelle année, nous souhaitons le montrer lors de championnat de france de robotique.</p>
+				Nous somme aujourd'hui ravis de présider le club robotique de l'insa strasbourg, avec une histoire riche, et des membres motivés, nous sommes l'un des plus gros club de notre école. Et pour cette nouvelle année, nous souhaitons le montrer lors de championnat de france de robotique.</p>
 			</li>
 		</ul>
 
@@ -115,5 +113,14 @@ Information pour moi-même :
 		</ul>
 
 	</body>
+
+	<script>
+	        const menuHamburger = document.querySelector(".burger-icon")
+	        const navLinks = document.querySelector(".nav-links")
+	 
+	        menuHamburger.addEventListener('click',()=>{
+	        navLinks.classList.toggle('mobile-menu')
+	        })
+	</script>
 
 </html>
