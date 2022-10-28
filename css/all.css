@@ -185,10 +185,12 @@ body {
 .bouton_visite{
   height: 2em;
   border-radius: 1em;
-  background-color: #2E3244;
-  color: white;
+  background-color: #F1895C;
+  color: #2E3244;
   text-decoration: none;
   display: inline-block;
   padding-top: 0.5em;
   text-align: center;
+  font-weight: bold;
+  margin-top: 1em;
 }
