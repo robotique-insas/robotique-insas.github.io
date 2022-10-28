@@ -38,13 +38,12 @@
 }
 
 .bouton_visite{
-	height: 2em;
 	width: 30%;
-	border-radius: 1em;
-	background-color: #2E3244;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
-	padding-top: 0.5em;
-	text-align: center;
+}
+
+
+@media screen and (max-width: 900px){
+	.bouton_visite{
+		width: 70%;
+	}
 }

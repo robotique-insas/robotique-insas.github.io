@@ -21,15 +21,7 @@ img{
 }
 
 .bouton_visite{
-	height: 2em;
 	width: 50%;
-	border-radius: 1em;
-	background-color: #2E3244;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
-	padding-top: 0.5em;
-	margin-bottom: 0.5em;
 }
 
 @media(width<1500px){

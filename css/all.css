@@ -181,3 +181,14 @@ body {
 }
 
 /*--*/
+
+.bouton_visite{
+  height: 2em;
+  border-radius: 1em;
+  background-color: #2E3244;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 0.5em;
+  text-align: center;
+}
