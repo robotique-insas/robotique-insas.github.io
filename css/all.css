@@ -144,7 +144,7 @@ body {
 }
 
 .espace_banniere{
-  padding-top: 57%;
+  padding-top: 30%;
   z-index: 2;
 }
 .espace_banniere img{
@@ -157,7 +157,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  max-width: 100%;
+  width: 100%;
   z-index: 1;
 }
 
